@@ -11,6 +11,11 @@ return {
       "<leader>[",
       "<cmd>NvimTreeToggle<cr>",
       desc = "Toggle file tree",
+    },
+    {
+      "<leader>m",
+      "<cmd>NvimTreeFocus<cr>",
+      desc = "Mov cursor to file tree"
     }
   }
 }

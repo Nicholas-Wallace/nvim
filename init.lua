@@ -4,4 +4,6 @@ vim.opt.number = true
 vim.opt.relativenumber = false
 
 -- require("vim-options")
+require("config.options")
+require("config.keymaps")
 require("config.lazy")
